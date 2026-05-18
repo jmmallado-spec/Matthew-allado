@@ -1,0 +1,11 @@
+<?php
+// LAB 2: If-Else Statement
+
+$number = -5;
+
+if ($number >= 0) {
+    echo "Positive number";
+} else {
+    echo "Negative number";
+}
+?>
