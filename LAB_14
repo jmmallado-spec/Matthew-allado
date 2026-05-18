@@ -1,0 +1,19 @@
+<?php
+// LAB 14: Menu Selection
+
+$choice = 2;
+
+switch ($choice) {
+    case 1:
+        echo "Add Selected";
+        break;
+    case 2:
+        echo "Edit Selected";
+        break;
+    case 3:
+        echo "Delete Selected";
+        break;
+    default:
+        echo "Invalid Choice";
+}
+?>
