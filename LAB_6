@@ -1,0 +1,12 @@
+<?php
+// LAB 6: Password Checker
+
+$password = "admin123";
+$input = "admin123";
+
+if ($input == $password) {
+    echo "Access Granted";
+} else {
+    echo "Access Denied";
+}
+?>
