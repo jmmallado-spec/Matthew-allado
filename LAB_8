@@ -1,0 +1,16 @@
+<?php
+// LAB 8: Nested If
+
+$age = 20;
+$citizen = "Filipino";
+
+if ($age >= 18) {
+    if ($citizen == "Filipino") {
+        echo "Eligible to vote";
+    } else {
+        echo "Not eligible to vote";
+    }
+} else {
+    echo "Not eligible to vote";
+}
+?>
