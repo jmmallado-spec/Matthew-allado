@@ -1,0 +1,15 @@
+<?php
+// LAB 9: Discount Calculator
+
+$amount = 1200;
+
+if ($amount >= 1000) {
+    $discount = $amount * 0.20;
+    echo "20% Discount: $discount";
+} elseif ($amount >= 500) {
+    $discount = $amount * 0.10;
+    echo "10% Discount: $discount";
+} else {
+    echo "No discount";
+}
+?>
