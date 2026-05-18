@@ -1,0 +1,9 @@
+<?php
+// LAB 1: Basic If Statement
+
+$age = 20;
+
+if ($age >= 20) {
+    echo "You are eligible to vote";
+}
+?>w
