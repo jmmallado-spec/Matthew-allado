@@ -1,0 +1,21 @@
+<?php
+// LAB 16: Traffic Light System
+$color = "green";
+
+switch ($color) {
+    case "red":
+        echo "Stop";
+        break;
+
+    case "yellow":
+        echo "Ready";
+        break;
+
+    case "green":
+        echo "Go";
+        break;
+
+    default:
+        echo "Invalid Color";
+}
+?>
