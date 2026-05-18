@@ -1,0 +1,15 @@
+<?php
+// LAB 10: Simple Login System
+
+$username = "admin";
+$password = "1234";
+
+$inputUser = "admin";
+$inputPass = "1234";
+
+if ($inputUser == $username && $inputPass == $password) {
+    echo "Login Successful";
+} else {
+    echo "Invalid Username or Password";
+}
+?>
